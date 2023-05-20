@@ -20,6 +20,6 @@ public class Responsavel extends Pessoa {
 
     @Override
     public String toString() {
-        return "classes.Responsavel-> " + super.toString();
+        return "Responsavel-> " + super.toString();
     }
 }
