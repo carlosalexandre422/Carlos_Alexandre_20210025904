@@ -20,6 +20,6 @@ public class Pai extends Pessoa {
 
     @Override
     public String toString() {
-        return "classes.Pai->" + super.toString();
+        return "Pai->" + super.toString();
     }
 }
