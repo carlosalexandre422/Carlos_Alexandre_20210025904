@@ -1,6 +1,8 @@
 # Carlos_Alexandre_20210025904
 
-# Obs.: Na questão 1(Agende Simples) fiz uma interface do usuário na classe main, ficou meio confusa, mas funcional.
+# Obs.1: Na questão 1(Agende Simples) fiz uma interface do usuário na classe main, ficou meio confusa, mas funcional.
+
+# Obs.2: Para testar, é necessario abrir uma pasta por vez (AgendaSimples, Controle ou Pagamento), pois haverá conflito por conta das várias classes main.
 
 Diagramas:</br>
 Agenda Simples:
