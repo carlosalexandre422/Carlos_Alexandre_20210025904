@@ -29,7 +29,7 @@ public class Aluno extends Pessoa {
 
     @Override
     public String toString() {
-        return "classes.Aluno->" + super.toString() +
+        return "Aluno->" + super.toString() +
                 ", matricula: " + matricula;
     }
 
