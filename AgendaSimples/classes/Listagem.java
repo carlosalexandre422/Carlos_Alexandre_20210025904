@@ -50,7 +50,7 @@ public class Listagem {
         String saida = "";
         int i = 1;
         for(Pessoa p : pessoas){
-            saida += "\n======classes.Pessoa cadastrada " + i++ + "======\n";
+            saida += "\n======Pessoa cadastrada " + i++ + "======\n";
             saida+=p.toString();
         }
 //        for(classes.Aluno a : alunos){
@@ -73,17 +73,17 @@ public class Listagem {
         int i = 1;
         if(tipo.equals("ALUNO")){
             for(Aluno a : alunos){
-                saida += "\n======classes.Pessoa cadastrada======\n";
+                saida += "\n======Pessoa cadastrada======\n";
                 saida+=a.toString();
             }
         }else if(tipo.equals("PAI")){
             for(Pai p : pais){
-                saida += "\n======classes.Pessoa cadastrada======\n";
+                saida += "\n======Pessoa cadastrada======\n";
                 saida+=p.toString();
             }
         }else if(tipo.equals("RESPONSAVEL")){
             for(Responsavel r : responsaveis){
-                saida += "\n======classes.Pessoa cadastrada " + i + "======\n" ;
+                saida += "\n======Pessoa cadastrada " + i + "======\n" ;
                 saida+=r.toString();
             }
         }
